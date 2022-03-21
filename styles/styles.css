@@ -45,7 +45,11 @@ html {
     color: black;
     display:inline;
     font-size: 12px;
+  }
 
+  footer a:hover {
+    background-color: transparent;
+    color: white;
   }
   
   nav {
