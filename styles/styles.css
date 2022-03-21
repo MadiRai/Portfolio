@@ -3,7 +3,7 @@ html {
   }
   
   .banner-content {
-   display: none; 
+
   }
   
   body {
@@ -57,8 +57,6 @@ html {
     font-family: 'Open-Sans', sans-serif;
   }
   
-  
-  /* add your css below this line */
   
   .banner-background {
     background: url("https://images.pexels.com/photos/261626/pexels-photo-261626.jpeg?") no-repeat fixed center;
