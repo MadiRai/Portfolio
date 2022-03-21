@@ -43,7 +43,7 @@ html {
   footer a {
     background-color: transparent;
     color: black;
-    display:inline;
+    display:inline-block;
 
   }
   
