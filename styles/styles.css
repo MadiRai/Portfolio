@@ -34,6 +34,11 @@ html {
     color: #fff;
     display: inline-block;
   }
+
+  a:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+  }
   
   nav {
     width: 100%;
