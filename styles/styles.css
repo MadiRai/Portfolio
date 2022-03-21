@@ -2,12 +2,12 @@ html {
     scroll-behavior: smooth;
   }
   
-  .hero-content {
+  .banner-content {
    display: none; 
   }
   
   body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open-Sans', sans-serif;
     margin: 0;
     padding: 0;
   }
@@ -50,22 +50,22 @@ html {
   }
   
   span .font-pair1a{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
   
   span .font-pair1b{
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Open-Sans', sans-serif;
   }
   
   
   /* add your css below this line */
   
-  .hero-background {
-    background: url("https://images.pexels.com/photos/234133/pexels-photo-234133.jpeg") no-repeat fixed center;
+  .banner-background {
+    background: url("https://images.pexels.com/photos/261626/pexels-photo-261626.jpeg?") no-repeat fixed center;
     background-size: cover;
   }
   
-  .hero {
+  .banner {
     display: flex;
     justify-content: center;
     align-items: center;
