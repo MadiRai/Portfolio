@@ -46,6 +46,7 @@ html {
     padding: 10px;
     position: fixed;
     bottom: 0;
+    z-index: 10;
   }
   
   span .font-pair1a{
