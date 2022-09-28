@@ -123,15 +123,15 @@
       <form action="mailto:madiraidragon@gmail.com" target="_top">
         <div class="w3-section">
           <label>Name</label>
-          <input id="cname" class="w3-input w3-border" type="text" name="Name" required>
+          <input class="w3-input w3-border" type="text" name="Name" required>
         </div>
         <div class="w3-section">
           <label>Email</label>
-          <input id="cemail" class="w3-input w3-border" type="text" name="Email" required>
+          <input class="w3-input w3-border" type="text" name="Email" required>
         </div>
         <div class="w3-section">
           <label>Message</label>
-          <input id="cmessage" class="w3-input w3-border" type="text" name="Message" required>
+          <input class="w3-input w3-border" type="text" name="Message" required>
         </div>
         <button onclick="sendMail()" type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
       </form>
@@ -168,9 +168,9 @@ function onClick(element) {
 }
 
 function sendMail() {    
-  var subject = document.getElementById("cname").value;
-  var subject = document.getElementById("cemail").value;
-  var body = document.getElementById("cmessage").value;
+  var subject = document.getElementsByName("Name").value;
+  var subject = document.getElementByName("Email").value;
+  var body = document.getElementByName("Message").value;
     
 
     window.location.replace(`mailto:madiraidragon@gmail.com?body=${body}&subject=${subject} wants to contact you`);    
