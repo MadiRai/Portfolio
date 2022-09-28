@@ -120,20 +120,15 @@
     <div class="w3-content" style="max-width:600px">
       <h4 class="w3-center"><b>Contact Me</b></h4>
       <p>Do you want me to get in touch? Fill out the form and fill me in with the details :) I love meeting new people!</p>
-      <form action="mailto:madiraidragon@gmail.com" target="_top">
-        <div class="w3-section">
-          <label class="label-control" for="Name">Name</label>
-          <input class="w3-input w3-border" type="text" name="Name" required>
-        </div>
-        <div class="w3-section">
-          <label class="label-control" for="Email">Email</label>
-          <input class="w3-input w3-border" type="text" name="Email" required>
-        </div>
-        <div class="w3-section">
-          <label class="label-control" for="Message">Message</label>
-          <input class="w3-input w3-border" type="text" name="Message" required>
-        </div>
-        <button onclick="sendMail()" type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
+      <div>
+        <input id="cname" required="" name="subject" type="text">
+        <label for="cname">Name</label>
+        <input id="cemail" required="" name="subject" type="text">
+        <label for="cname">Email</label>
+        <textarea id="cmessage" required="" name="body"></textarea>
+        <label class="label-control" for="cmessage">Message</label>
+    </div>
+    <button onclick="sendMail()">Click me</button>
       </form>
     </div>
   </div>
@@ -168,9 +163,9 @@ function onClick(element) {
 }
 
 function sendMail() {    
-  var subject = document.getElementsByName("Name").value;
-  var subject = document.getElementByName("Email").value;
-  var body = document.getElementByName("Message").value;
+  var subject = document.getElementsById("cname").value;
+  var subject = document.getElementById("cemail").value;
+  var body = document.getElementById("cmessage").value;
     
 
     window.location.replace(`mailto:madiraidragon@gmail.com?body=${body}&subject=${subject} wants to contact you`);    
