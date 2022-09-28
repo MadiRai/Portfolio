@@ -11,7 +11,19 @@ body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif}
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+  }
+
+  .fa-twitter {
     background: #616161;
     color: white;
   }
 
+  .fa-linkedin {
+    background: #616161;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #616161;
+    color: white;
+  }
