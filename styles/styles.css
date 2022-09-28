@@ -15,18 +15,18 @@ body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif;}
   }
 
   .fa-twitter {
-    background: #616161;
-    color: white;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
   }
 
   .fa-linkedin {
-    background: #616161;
-    color: white;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
   }
 
   .fa-instagram {
-    background: #616161;
-    color: white;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
   }
 
   div #skills {padding-left: 30px;}
