@@ -116,22 +116,7 @@
       <hr class="w3-opacity">
         
   <!-- Contact section -->
-  <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
-    <div class="w3-content" style="max-width:600px">
-      <h4 class="w3-center"><b>Contact Me</b></h4>
-      <p>Do you want me to get in touch? Fill out the form and fill me in with the details :) I love meeting new people!</p>
-      <div>
-        <input id="cname" required="" name="subject" type="text">
-        <label for="cname">Name</label>
-        <input id="cemail" required="" name="subject" type="text">
-        <label for="cname">Email</label>
-        <textarea id="cmessage" required="" name="body"></textarea>
-        <label class="label-control" for="cmessage">Message</label>
-    </div>
-    <button onclick="sendMail()">Click me</button>
-      </form>
-    </div>
-  </div>
+  <script type="text/javascript" src="https://form.jotform.com/jsform/222700813748152"></script>
 
   <!-- Footer -->
   <footer class="w3-container w3-padding-32 w3-grey">  
@@ -162,14 +147,7 @@ function onClick(element) {
   captionText.innerHTML = element.alt;
 }
 
-function sendMail() {    
-  var subject = document.getElementsById("cname").value;
-  var subject = document.getElementById("cemail").value;
-  var body = document.getElementById("cmessage").value;
-    
 
-    window.location.replace(`mailto:madiraidragon@gmail.com?body=${body}&subject=${subject} wants to contact you`);    
-}
 </script>
 
 
