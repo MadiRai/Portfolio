@@ -5,8 +5,9 @@ body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif;}
 .w3-third img:hover{opacity: 1}
 
 footer {
-font-size: 40px;
+font-size: 80px;
 color: white;
 justify-content: center;
+padding: 45px;
 }
 
