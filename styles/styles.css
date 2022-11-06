@@ -4,32 +4,34 @@ body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif;}
 
 .w3-third img:hover{opacity: 1}
 
-.social-footer {
-  padding: 1rem;
-  background: grey;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto+Slab&display=swap');
+
+* {
+  box-sizing: border-box; 
+}
+
+.container {
+  margin: 50px; 
+  font-family: 'Merriweather', sans-serif;
+  font-size: 1.5rem; 
+}
+
+#sm-footer {
+  position: fixed; 
+  bottom: 0; 
+  background-color: grey; 
+  width: 100vw; 
+  height: 15vh; 
   display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: center;
+  font-size: 2rem; 
+  font-family: 'Roboto Slab', sans-serif; 
 }
 
-.social-footer .social-footer-icons li:last-of-type {
-  margin-right: 0;
-}
-
-.social-footer .social-footer-icons .fa {
-  font-size: 1.3rem;
-  color: #fefefe;
-}
-
-.social-footer .social-footer-icons .fa:hover {
-  color: #4a4a4a;
-  transition: color 0.3s ease-in;
+a, a:visited {
+  color: white; 
+  text-decoration: none;
+  padding: 10px; 
 }
 
 
