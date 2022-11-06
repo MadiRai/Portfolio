@@ -17,7 +17,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif;}
 }
 
 #sm-footer {
-  position: fixed; 
+  position: static; 
   bottom: 0; 
   background-color: grey; 
   width: 100vw; 
@@ -32,6 +32,10 @@ a, a:visited {
   color: white; 
   text-decoration: none;
   padding: 10px; 
+}
+
+a, a:hover {
+  Color: black;
 }
 
 #rectangle{
