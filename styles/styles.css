@@ -4,35 +4,5 @@ body,h1,h2,h3,h4,h5 {font-family: "Montserrat", sans-serif;}
 
 .w3-third img:hover{opacity: 1}
 
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto+Slab&display=swap');
-
-* {
-  box-sizing: border-box; 
-}
-
-.container {
-  margin: 50px; 
-  font-family: 'Merriweather', sans-serif;
-  font-size: 45px; 
-}
-
-#sm-footer {
-  position: static; 
-  bottom: 0; 
-  background-color: grey; 
-  width: 100vw; 
-  height: 15vh; 
-  display: flex;
-  justify-content: center;
-  font-size: 2rem; 
-  font-family: 'Roboto Slab', sans-serif; 
-}
-
-a, a:visited {
-  color: white; 
-  text-decoration: none;
-  padding: 10px; 
-  justify-content: center;
-}
 
 
