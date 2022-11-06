@@ -35,13 +35,4 @@ a, a:visited {
   justify-content: center;
 }
 
-a, a:hover {
-  Color: black;
-}
-
-#rectangle{
-  width:200px;
-  height:100px;
-  background:black;
-}
 
